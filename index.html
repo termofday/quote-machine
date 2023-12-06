@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Random Quote Generator | freecodecamp project</title>
+    <meta description="Freecodecamp Zufalls-Zitate Web-Applikation. Bootstrap, SCSS, JS, HTML 5.">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="../src/css/all.min.css">
+        <link rel="stylesheet" href="../src/bootstrap/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../src/css/style.css">
+                <link rel="stylesheet" href="../src/scss/var.css">
+                
+                <link rel="apple-touch-icon" sizes="180x180" href="../src/ico/apple-touch-icon.png">
+                <link rel="icon" type="image/png" sizes="32x32" href="../src/ico/favicon-32x32.png">
+                <link rel="icon" type="image/png" sizes="16x16" href="../src/ico/favicon-16x16.png">
+                <link rel="manifest" href="../src/ico/site.webmanifest">
+                <link rel="mask-icon" href="../src/ico/safari-pinned-tab.svg" color="#5bbad5">
+                <meta name="msapplication-TileColor" content="#da532c">
+                <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <div class="container" id="con">
+        <div class="position-relative d-block mx-auto shadow-lg p-3 mb-5 rounded" id="quote-box">
+            <span id="text">
+                <span><i id="quoteTag" class="fa-solid fa-quote-left pe-2"></i></span>
+                    <p id="txtIn" class="d-inline"> ... </p>
+            </span>
+                <div class="position-relative pt-2 pe-2 my-4" id="author">
+                    <i id="addTag" class="fa-solid fa-at"></i><span id="authorName"> ...</span>
+                </div>
+                    <span id="toolbar" class="position-absolute end-0 bottom-0 pb-2 pe-2 ps-2">            
+                        <a class="pe-1" href="https://twitter.com/intent/tweet?text=Tolle%20Zitate&url=haustein.in" rel="noopener" target="_blank" id="tweet-quote"><i class="fa-brands fa-x-twitter"></i> Click to tweet</a>
+                            <button class="btn btn-info" id="new-quote"><i class="fa-solid fa-wand-magic-sparkles"></i> Neues Zitat</button>
+                    </span>
+        </div>
+            <div id="tech" class="d-flex justify-content-center align-content-center">Used: HTML | CSS | JavaScript | jQuery | Bootstrap | SASS</div>
+                <div class="d-flex justify-content-center align-content-center">Created by &nbsp;<a href="https://haustein.in" rel="noopener" target="_blank">Hendrik Haustein</a></div>
+    </div>
+        <script src="../src/js/jquery/jquery.min.js"></script>
+            <script src="../src/js/logic.js"></script>
+                <script src="../src/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
